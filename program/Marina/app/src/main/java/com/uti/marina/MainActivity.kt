@@ -1,20 +1,32 @@
 package com.uti.marina
 
-import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val editTextUsername = findViewById<EditText>(R.id.editTextUsername)
+        val editTextPassword = findViewById<EditText>(R.id.editTextPassword)
+        val buttonLogin = findViewById<Button>(R.id.buttonLogin)
+
+        buttonLogin.setOnClickListener {
+            val username = editTextUsername.text.toString()
+            val password = editTextPassword.text.toString()
+
+            // Validasi sederhana (ganti dengan logika validasi Anda)
+            if (username == "user" && password == "password") {
+                val intent = Intent(this, HomeActivity::class.java)
+                startActivity(intent)
+            } else {
+                Toast.makeText(this, "Login gagal!", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 }
