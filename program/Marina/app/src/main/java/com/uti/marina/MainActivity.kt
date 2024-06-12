@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         // TODO: Ganti dengan logika validasi yang sesuai (misalnya, cek ke database)
-        if (username == "user" && password == "password") {
+        if (username == "DDK" && password == "admin123") {
             return true
         } else {
             Toast.makeText(this, "Login gagal!", Toast.LENGTH_SHORT).show()
