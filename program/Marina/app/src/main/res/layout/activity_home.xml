@@ -104,6 +104,16 @@
                         android:layout_height="133dp"
                         app:srcCompat="@drawable/lokasi" />
 
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lokasi Wisata"
+                        app:backgroundTint="#254965" />
+
+
+
+
                 </LinearLayout>
 
 
