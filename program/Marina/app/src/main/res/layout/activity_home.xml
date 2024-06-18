@@ -43,9 +43,6 @@
             android:layout_height="0dp"
             android:padding="14dp">
 
-            <!-- Row 1 -->
-
-            <!-- Column 1 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -79,7 +76,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Column 2 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -112,8 +108,7 @@
                         app:backgroundTint="#254965" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-            <!-- Row 2 -->
-            <!-- Column 1 -->
+
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="0dp"
