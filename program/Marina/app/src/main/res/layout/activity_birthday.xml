@@ -31,3 +31,7 @@
         android:text="Lokasi: Tanjung Belit, Kiri Hilir, Kampar, Pekanbaru, Riau"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
