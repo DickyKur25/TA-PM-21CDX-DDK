@@ -175,9 +175,7 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Row 2 -->
-
-            <!-- Column 1 -->
+            <!-- Row 2, Column 1 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -189,25 +187,17 @@
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp"/>
 
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <ImageView
-                android:layout_width="106dp"
-                android:layout_height="123dp"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/wedding" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Wedding"
-                app:backgroundTint="#254965" />
+            <!-- Row 2, Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"/>
 
         </GridLayout>
     </LinearLayout>
