@@ -2,6 +2,7 @@ package com.uti.marina
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -10,4 +11,6 @@ class HomeActivity : AppCompatActivity() {
 
         // Tambahkan kode untuk inisialisasi tampilan dan logika di HomeActivity
     }
+
+    fun Galeri(view: View) {}
 }
