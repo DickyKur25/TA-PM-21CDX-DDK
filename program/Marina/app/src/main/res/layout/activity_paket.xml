@@ -99,6 +99,13 @@
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/prewed3" />
 
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="PREWEDDING"
+                app:backgroundTint="#254965" />
+
         </GridLayout>
     </LinearLayout>
 </ScrollView>
