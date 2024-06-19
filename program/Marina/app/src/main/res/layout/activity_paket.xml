@@ -117,50 +117,56 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
-                <!-- Add your content for this CardView here -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="118dp"
+                        android:layout_height="127dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/camp1" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CAMPING"
+                        app:backgroundTint="#254965" />
+                </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+            <!-- Row 2, Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
 
-            <ImageView
-                android:layout_width="118dp"
-                android:layout_height="127dp"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/camp1" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="CAMPING"
-                app:backgroundTint="#254965" />
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="128dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/BBQ" />
 
-    </LinearLayout>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        app:cardElevation="8dp"
-        app:cardCornerRadius="8dp">
-        <!-- Add your content for this CardView here -->
-    </androidx.cardview.widget.CardView>
-
-    <LinearLayout
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:layout_margin="16dp"
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
         </GridLayout>
     </LinearLayout>
