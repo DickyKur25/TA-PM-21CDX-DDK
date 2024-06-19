@@ -79,7 +79,7 @@
                 android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Danau Buatan"
+                android:text="Prewedding"
                 app:backgroundTint="#254965" />
 
         </GridLayout>
