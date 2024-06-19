@@ -163,7 +163,7 @@
                         android:layout_width="125dp"
                         android:layout_height="128dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/BBQ" />
+                        android:src="@drawable/grill" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
