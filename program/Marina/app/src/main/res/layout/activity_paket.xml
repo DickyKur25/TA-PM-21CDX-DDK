@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="#fff"
-    android:orientation="vertical"
-    tools:context="com.uti.marina.PaketActivity"
-    android:weightSum="1">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaketActivity">
 
-    <?xml version="1.0" encoding="utf-8"?>
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bgprewed"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MediaActivity">
+        android:layout_height="wrap_content">
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:background="@drawable/bgprewed"
-            android:weightSum="10"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/list"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+        </ListView>
 
-    <ListView
-        android:id="@+id/list"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent">
-    </ListView>
-</LinearLayout>
+        <TextView
+            android:id="@+id/textGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0A91CD"
+            android:textAlignment="center"
+            android:text="PAKET PREWEDDING"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+</ScrollView>
