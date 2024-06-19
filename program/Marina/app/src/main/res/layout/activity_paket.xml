@@ -201,6 +201,12 @@
                 android:layout_height="123dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/wedding" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Paket Wedding"
+                app:backgroundTint="#254965" />
 
         </GridLayout>
     </LinearLayout>
