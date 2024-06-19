@@ -140,6 +140,22 @@
                 android:text="CAMPING"
                 app:backgroundTint="#254965" />
 
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp">
+        <!-- Add your content for this CardView here -->
+    </androidx.cardview.widget.CardView>
+
+
         </GridLayout>
     </LinearLayout>
 </ScrollView>
