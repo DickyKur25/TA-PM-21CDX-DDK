@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:background="#0A91CD"
             android:textAlignment="center"
-            android:text="PAKET PREWEDDING"
+            android:text="PILIHAN PAKET"
             android:textColor="@color/white"
             android:textSize="34sp" />
 
