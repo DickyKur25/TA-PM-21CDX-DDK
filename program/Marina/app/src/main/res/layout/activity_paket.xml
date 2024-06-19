@@ -169,7 +169,7 @@
                         android:id="@+id/button4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Hutan Raya"
+                        android:text="Paket BBQ"
                         app:backgroundTint="#254965" />
 
                 </LinearLayout>
