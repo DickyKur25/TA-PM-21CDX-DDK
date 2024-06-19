@@ -41,6 +41,20 @@
             android:autoLink="web"
             android:text="https://www.instagram.com/pantai.marina.official/" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="atau bisa hubungi admin Whatsapp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="https://wa.me/6281311080553" />
 
     </LinearLayout>
 
