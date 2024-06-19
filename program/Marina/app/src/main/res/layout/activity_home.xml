@@ -173,7 +173,6 @@
                         android:text="Fasilitas Pantai"
                         app:backgroundTint="#254965" />
                 </LinearLayout>
-
             </androidx.cardview.widget.CardView>
 
         </GridLayout>
