@@ -29,6 +29,18 @@
             android:layout_marginTop="8dp"
             android:text="Desa Merak Belantung, Kecamatan Kalianda, Lampung Selatan" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Kunjungi Instagram Kami:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="https://www.instagram.com/pantai.marina.official/" />
+
 
     </LinearLayout>
 
