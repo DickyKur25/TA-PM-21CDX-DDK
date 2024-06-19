@@ -56,6 +56,13 @@
             android:autoLink="web"
             android:text="https://wa.me/6281311080553" />
 
+        <Button
+            android:id="@+id/btnTampilPeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Tampil Peta" />
+        
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
