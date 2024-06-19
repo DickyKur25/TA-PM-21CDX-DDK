@@ -23,6 +23,13 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Desa Merak Belantung, Kecamatan Kalianda, Lampung Selatan" />
+
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
