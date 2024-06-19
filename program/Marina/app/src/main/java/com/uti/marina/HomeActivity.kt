@@ -18,6 +18,10 @@ class HomeActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun tampilkanPaket(view: View) {val intent = Intent(this, PaketActivity::class.java)
+        startActivity(intent)
+    }
+
 
     fun Galeri(view: View) {}
 }
