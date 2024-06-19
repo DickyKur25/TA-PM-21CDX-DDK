@@ -23,7 +23,7 @@
                 android:background="#0A91CD"
                 android:textAlignment="center"
                 android:text="Galeri Marina"
-                android:textColor="@color/white"
+                android:textColor="@android:color/white"
                 android:textSize="34sp" />
         </RelativeLayout>
 
@@ -39,8 +39,16 @@
                 android:layout_marginBottom="16dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-            </androidx.cardview.widget.CardView>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="16dp">
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
