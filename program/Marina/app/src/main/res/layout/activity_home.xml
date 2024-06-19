@@ -105,6 +105,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Lokasi Wisata"
+                        android:onClick="tampilkanLokasi"
                         app:backgroundTint="#254965" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
