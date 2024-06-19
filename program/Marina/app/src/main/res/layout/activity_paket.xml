@@ -133,6 +133,13 @@
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/camp1" />
 
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Alam Mayang"
+                app:backgroundTint="#254965" />
+
         </GridLayout>
     </LinearLayout>
 </ScrollView>
