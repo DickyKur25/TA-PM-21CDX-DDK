@@ -20,7 +20,7 @@
                 android:id="@+id/imageViewGallery"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:src="@drawable/bgalam"
+                android:src="@drawable/aboutt"
                 android:scaleType="centerCrop" />
 
             <TextView
@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageViewGallery"
-                android:text="Pesona Pantai Marina Lampung terdapat pada hamparan karang yang berada di sepanjang pesisir pantai. Deburan ombak yang menghantam karang serta pasir putih pada pinggiran pantai menjadi daya tarik tersendiri di Pantai Marina Lampung ini."
+                android:text="Pesona Pantai Marina Lampung terdapat pada hamparan karang yang berada di sepanjang pesisir pantai. Deburan ombak yang menghantam karang serta pasir putih pada pinggiran pantai menjadi daya tarik tersendiri di Pantai Marina Lampung ini. Begitu memasuki area pantai, pengunjung akan disuguhi dengan keindahan hamparan laut luas yang menghadap langsung ke Samudera Hindia. Hal inilah yang membuat deburan ombak di Pantai Marina Lampung terbilang cukup besar dan kencang. Pihak pengelola melarang keras pengunjung untuk mandi di pantai ini. Hal ini mengingat banyaknya karang-karang besar dan tajam serta ombak yang sangat besar dan dapat membahayakan pengunjung jika bermain air terlalu dekat."
                 android:textColor="@android:color/black"
                 android:textSize="18sp" />
         </RelativeLayout>
