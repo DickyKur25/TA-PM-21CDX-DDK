@@ -16,11 +16,11 @@
             android:name=".AboutActivity"
             android:exported="false" />
         <activity
-desifitriaa
+
             android:name=".GaleriActivity"
             android:exported="false" />
         <activity
- master
+
             android:name=".LokasiActivity"
             android:exported="false" />
         <activity
