@@ -28,7 +28,7 @@
                 android:background="#0F5878"
                 android:text="WISATA \n PANTAI MARINA"
                 android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="@android:color/white"
                 android:textSize="34sp" />
         </RelativeLayout>
 
@@ -61,11 +61,19 @@
                     android:layout_margin="16dp"
                     android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="match_parent"
-                    android:layout_height="133dp"
-                    app:srcCompat="@drawable/bgalam" />
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp"
+                        app:srcCompat="@drawable/bgalamm" />
+
+desifitriaa
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Paket Wisata"
+                        app:backgroundTint="#254965" />
 
                 <Button
                     android:id="@+id/button1"
@@ -74,6 +82,7 @@
                     android:text="Paket Wisata"
                     android:onClick="tampilkanPaket"
                     app:backgroundTint="#254965" />
+master
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -133,12 +142,13 @@
                         android:id="@+id/imageView5"
                         android:layout_width="match_parent"
                         android:layout_height="133dp"
-                        app:srcCompat="@drawable/galeri" />
+                        app:srcCompat="@drawable/bggaleri" />
 
                     <Button
                         android:id="@+id/button3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:onClick="menugaleripantai"
                         android:text="Galeri Pantai"
                         app:backgroundTint="#254965" />
                 </LinearLayout>
@@ -166,7 +176,7 @@
                         android:id="@+id/imageView6"
                         android:layout_width="match_parent"
                         android:layout_height="133dp"
-                        app:srcCompat="@drawable/fasilitas" />
+                        app:srcCompat="@drawable/bgfasilitas" />
 
                     <Button
                         android:id="@+id/button4"
@@ -175,6 +185,79 @@
                         android:text="Fasilitas Pantai"
                         app:backgroundTint="#254965" />
                 </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Row 3, Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/bgabout" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="About"
+                        android:onClick="about"
+                        app:backgroundTint="#254965" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Row 3, Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="117dp"
+                        android:layout_height="124dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/bg" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Exit"
+                        app:backgroundTint="#254965" />
+
+                </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
         </GridLayout>
