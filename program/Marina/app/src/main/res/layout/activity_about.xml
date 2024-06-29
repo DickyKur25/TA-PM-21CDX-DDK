@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageViewGallery"
-                android:text="Tambahkan teks penjelasan tentang Pantai Marina di sini."
+                android:text="Pesona Pantai Marina Lampung terdapat pada hamparan karang yang berada di sepanjang pesisir pantai. Deburan ombak yang menghantam karang serta pasir putih pada pinggiran pantai menjadi daya tarik tersendiri di Pantai Marina Lampung ini."
                 android:textColor="@android:color/black"
                 android:textSize="18sp" />
         </RelativeLayout>
