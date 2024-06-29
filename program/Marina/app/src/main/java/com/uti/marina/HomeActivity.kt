@@ -18,6 +18,13 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, GaleriActivity::class.java)
             startActivity(intent)
         }
+
+        // Inisialisasi tombol dan set onClick listener untuk about
+        val aboutButton: Button = findViewById(R.id.button5)
+        aboutButton.setOnClickListener {
+            val intent = Intent(this, AboutActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     fun tampilkanLokasi(view: View) {
@@ -30,4 +37,6 @@ class HomeActivity : AppCompatActivity() {
         startActivity(intent)
     }
 }
+
+
 
