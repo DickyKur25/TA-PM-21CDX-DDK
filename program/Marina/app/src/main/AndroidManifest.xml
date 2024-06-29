@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo_marina"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo_marina"
         android:supportsRtl="true"
         android:theme="@style/Theme.Marina"
         tools:targetApi="31">
@@ -16,13 +16,27 @@
             android:name=".AboutActivity"
             android:exported="false" />
         <activity
+desifitriaa
             android:name=".GaleriActivity"
             android:exported="false" />
         <activity
+ master
             android:name=".LokasiActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BirthdayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreweddingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fasilitasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CampingActivity"
             android:exported="false" />
         <activity
             android:name=".PaketActivity"
