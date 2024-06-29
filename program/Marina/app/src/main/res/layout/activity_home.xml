@@ -67,14 +67,6 @@
                         android:layout_height="133dp"
                         app:srcCompat="@drawable/bgalamm" />
 
-desifitriaa
-                    <Button
-                        android:id="@+id/button1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Paket Wisata"
-                        app:backgroundTint="#254965" />
-
                 <Button
                     android:id="@+id/button1"
                     android:layout_width="match_parent"
@@ -82,7 +74,7 @@ desifitriaa
                     android:text="Paket Wisata"
                     android:onClick="tampilkanPaket"
                     app:backgroundTint="#254965" />
-master
+
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
